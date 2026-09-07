@@ -1,0 +1,24 @@
+{
+  "name": "github-actions-testrun",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miki-same/github-actions-testrun.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/miki-same/github-actions-testrun/issues"
+  },
+  "homepage": "https://github.com/miki-same/github-actions-testrun#readme",
+  "devDependencies": {
+    "jest": "^30.5.1"
+  }
+}
