@@ -1,3 +1,3 @@
 # github-actions-testrun
 
-+ ![workflow](https://github.com/qodio-dev/learn-github-actions/actions/workflows/build-and-test.yaml/badge.svg)
++ ![workflow](https://github.com/miki-same/github-actions-testrun/actions/workflows/build-and-test.yaml/badge.svg)
