@@ -25,3 +25,19 @@ jobs:
       
       - name: Run tests
         run: npm test
+  
+  output:
+    name: Make Output
+    runs-on: ubuntu-latest
+    outputs:
+      version-number: ${{steps.set-version.outputs.version}}
+    steps:
+      - id: set-version
+        run: echo "version=1.0.${{github.run_number}}" >> $GITHUB_OUTPUT
+    
+  echo:
+    needs: output
+    runs-on: ubuntu-latest
+    steps:
+      - name: echo version
+        run: echo "Version ${{needs.create-version.outputs.version-number}}"
